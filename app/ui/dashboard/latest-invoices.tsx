@@ -4,9 +4,9 @@ import Image from "next/image";
 import { lusitana } from "@/app/ui/fonts";
 
 export default async function LatestInvoices({
-  latestInvoices,
+  // latestInvoices,
 }: {
-  latestInvoices: LatestInvoice[];
+  // latestInvoices: LatestInvoice[];
 }) {
   return (
     <div className="flex w-full flex-col md:col-span-4">
