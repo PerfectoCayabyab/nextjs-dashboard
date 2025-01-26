@@ -14,6 +14,12 @@ export default function LoginPage() {
         <Suspense>
           <LoginForm />
         </Suspense>
+        <div className="flex w-full items-end rounded-lg bg-blue-500 px-2 py-4 !mt-[40px] justify-center">
+          <p className='text-white font-semibold'>
+          Test email: user@nextmail.com<br></br>
+          Test password: 123456
+          </p>
+        </div>
       </div>
     </main>
   );
